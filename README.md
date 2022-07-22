@@ -124,7 +124,7 @@ Your branch is up to date with 'origin/main'.
 
 nothing to commit, working tree clean
 (dev)
-
+```
 ### Git commit
 ```
 nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/SF_Rental_Analysis (main)
@@ -164,55 +164,6 @@ To https://github.com/nayananarayananp/SF_Rental_Analysis.git
 Running the program with code completed
 ```
 ```
-
-
-
-### Final commit and push
-nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/Portfolios_Analysis (main)
-$ git status
-On branch main
-Your branch is up to date with 'origin/main'.
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-        modified:   README.md
-        modified:   risk_return_analysis.ipynb
-
-no changes added to commit (use "git add" and/or "git commit -a")
-(dev)
-nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/Crypto_Analysis (main)
-$ git add *
-(dev)
-$ git status
-On branch main
-Your branch is up to date with 'origin/main'.
-
-Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
-        modified:   README.md
-        modified:   risk_return_analysis.ipynb
-
-(dev)
-
-$ git commit -m "Final commit"
-[main 04228e6] Final commit
- 2 files changed, 380 insertions(+), 210 deletions(-)
-(dev)
-nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/Portfolios_Analysis (main)
-$ git push
-Enumerating objects: 7, done.
-Counting objects: 100% (7/7), done.
-Delta compression using up to 16 threads
-Compressing objects: 100% (4/4), done.
-Writing objects: 100% (4/4), 2.75 KiB | 351.00 KiB/s, done.
-Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
-remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
-To https://github.com/nayananarayananp/Portfolios_Analysis.git
-   2b10257..04228e6  main -> main
-(dev)
-    
-
 ### Capture terminal history
 ```
 nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/Portfolios_Analysis (main)
@@ -221,8 +172,10 @@ $ history 50 > terminal_history.txt
 ```
 Attached to [](./terminal_history.txt)
 
-### Updated the code and added to git
-nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/Portfolios_Analysis (main)
+
+### Final commit and push
+```
+nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/SF_Rental_Analysis (main)
 $ git status
 On branch main
 Your branch is up to date with 'origin/main'.
@@ -230,77 +183,59 @@ Your branch is up to date with 'origin/main'.
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
-        modified:   risk_return_analysis.ipynb
+        modified:   README.md
+        modified:   san_francisco_housing.ipynb
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        terminal_history.txt
 
 no changes added to commit (use "git add" and/or "git commit -a")
 (dev)
-nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/Portfolios_Analysis (main)
+nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/SF_Rental_Analysis (main)
 $ git add *
+warning: CRLF will be replaced by LF in README.md.
+The file will have its original line endings in your working directory
 (dev)
-nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/Portfolios_Analysis (main)
+nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/SF_Rental_Analysis (main)
 $ git status
 On branch main
 Your branch is up to date with 'origin/main'.
 
 Changes to be committed:
   (use "git restore --staged <file>..." to unstage)
-        modified:   risk_return_analysis.ipynb
+        modified:   README.md
+        modified:   san_francisco_housing.ipynb
+        new file:   terminal_history.txt
 
 (dev)
-nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/Portfolios_Analysis (main)
-$ git commit -m "Updated Code"
-[main d6c0e31] Updated Code
- 1 file changed, 134 insertions(+), 150 deletions(-)
+nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/SF_Rental_Analysis (main)
+$ git commit -m "Final Commit"
+[main 27a3f77] Final Commit
+ 3 files changed, 443 insertions(+), 36 deletions(-)
+ create mode 100644 terminal_history.txt
 (dev)
-nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/Portfolios_Analysis (main)
+nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/SF_Rental_Analysis (main)
 $ git push
-Enumerating objects: 5, done.
-Counting objects: 100% (5/5), done.
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
 Delta compression using up to 16 threads
-Compressing objects: 100% (3/3), done.
-Writing objects: 100% (3/3), 203.89 KiB | 8.50 MiB/s, done.
-Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 4.69 KiB | 800.00 KiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0), pack-reused 0
 remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
-To https://github.com/nayananarayananp/Portfolios_Analysis.git
-   7c8f147..d6c0e31  main -> main
+To https://github.com/nayananarayananp/SF_Rental_Analysis.git
+   fa52985..27a3f77  main -> main
 (dev)
+```   
+    
+### Updated terminal history
+```
+nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/Portfolios_Analysis (main)
+$ history 50 > terminal_history.txt
+(dev)
+```
+Attached to [](./terminal_history.txt)
 
-### Final changes made
-nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/Portfolios_Analysis (main)
-$ git status
-On branch main
-Your branch is up to date with 'origin/main'.
 
-Changes not staged for commit:
-  (use "git add/rm <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-        modified:   risk_return_analysis.ipynb
-        deleted:    terminal_history.txt
-
-no changes added to commit (use "git add" and/or "git commit -a")
-(dev)
-nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/Portfolios_Analysis (main)
-$ git add *
-(dev)
-nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/Portfolios_Analysis (main)
-$ git commit -m "Final changes made"
-[main e6b5ea7] Final changes made
- 1 file changed, 104 insertions(+), 110 deletions(-)
-(dev)
-nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/Portfolios_Analysis (main)
-$ git push
-Enumerating objects: 5, done.
-Counting objects: 100% (5/5), done.
-Delta compression using up to 16 threads
-Compressing objects: 100% (3/3), done.
-Writing objects: 100% (3/3), 94.04 KiB | 6.72 MiB/s, done.
-Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
-remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
-To https://github.com/nayananarayananp/Portfolios_Analysis.git
-   daa8987..e6b5ea7  main -> main
-(dev)
-    
-    
-    
-    
     
