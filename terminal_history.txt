@@ -1,0 +1,22 @@
+    1  cd Fintech-Workspace/Challenge/Challenge\6
+    2  conda activate dev
+    3  jupyter lab
+    4  cd ..
+    5  git clone https://github.com/nayananarayananp/SF_Rental_Analysis.git
+    6  ls
+    7  cd Retirement_Financial_Planning/
+    8  ls
+    9  cd..
+   10  cd ..
+   11  cd sf
+   12  cd SF_Rental_Analysis/
+   13  ls
+   14  git status
+   15  git add *
+   16  git status
+   17  git add .gitignore
+   18  git status
+   19  git commit -m "Created Jupyter Notebook for San Fransisco Housing Rental Analysis"
+   20  git push
+   21  git status
+   22  history 50 > terminal_history.txt
